@@ -4,15 +4,14 @@ using namespace std;
 //class
 class Hero{
 public:	//Access Modifier
-    int health; //properties
-    char level;
+    int health; //property
 };
 
 int main(){
     Hero h1; //object initialised
     cout<<sizeof(h1)<<endl; //4 as integer
     
-    h1.health = 10;
+    h1.health = 10; //public dm ko prop assigned
     cout<<h1.health; //accessing properties / Data members using . operator
     				//to access it make the data members public
     return 0;
