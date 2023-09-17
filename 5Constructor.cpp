@@ -7,6 +7,7 @@ using namespace std;
 // 			   -> no parameter in default constructor
 //			   -> khud ka bana doge to default deleted 
 //             -> agar khud ka bhi del karoge to default wapis nahi aega:()
+
 class Dc{
 public:
 	//Khud ka Default constructor
