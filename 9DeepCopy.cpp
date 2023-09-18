@@ -7,7 +7,7 @@ private:
 	
 public:
 	char *name;
-	
+	//
 	Deep(){
 		cout<<"default chaiye"<<endl;
 		name = new char[100];
